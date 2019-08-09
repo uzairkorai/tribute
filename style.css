@@ -1,34 +1,35 @@
 body{
-margin: 0;
-font-family: 'Open Sans',sans-serif;
-
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
 }
 
-#title{
- margin: 0;
- height: 660px;
+#title-dev{
+    margin: 0;
+    height: 660px;
 }
 
 #img-div {
-height: 70%;
+    height: 100%;
 }
 
 #image {
-width: 40%;
-height: 40%;
-border-radius: 50%;
-margin:50px;
+    display:block;
+    max-width: 40%;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+    margin:50px;
 }
 
 #img-caption {
-position: absolute;
-top: 60%;
-right: 10%;
-transform: translate(-40%, -50%);
+    position: absolute;
+    top: 60%;
+    right: 10%;
+    transform: translate(-40%, -50%);
 }
 
-#img-caption h3 {
-    font-size: 70px;
+#img-caption h1 {
+    font-size: 80px;
     margin-top: -120px;
 }
 
